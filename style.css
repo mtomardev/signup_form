@@ -1,0 +1,66 @@
+*{
+    background-color: black;
+    
+}
+
+.main{
+    margin: 40px;
+}
+
+.title{
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 77px;
+    color: #FFFFFF;
+}    
+
+input[type=text], input[type=email],input[type=password], input[type=date]{
+    border: none;
+    border-bottom: 2px solid white;
+    width: 65%;
+    color: white;
+    height: 33px;
+    padding: 5px;
+    
+    font-size: 16px;
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, input[type=date]:focus{
+    outline: none;
+}
+/* soudo element */
+/* input[type=text]::placeholder{
+    color: white;
+    font-weight: 600;
+} */
+
+.lable{
+    font-size: 17px;
+    
+    margin: 0px 14px;
+}
+
+/* custio radio button */
+input[type=radio]{
+    appearance: none;
+    border: 1px solid white;
+    background-color: black;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+}
+
+
+input[type=checkbox]{
+    appearance: none;
+    border: 1px solid white;
+    background-color: black;
+    height: 12px;
+    width: 12px;
+    
+}
+
+.btn{
+    background-color: white;
+    color: black;
+}
